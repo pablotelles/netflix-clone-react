@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,700;1,300&family=Roboto:wght@400;700&display=swap');
+@font-face {
+  font-family: 'icones';
+  src: url(../src/assets/font/icones.ttf);
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'icones', sans-serif;
+ 
+}
+body {
+  overflow-x: hidden;
+  background-color: #111;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

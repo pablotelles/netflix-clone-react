@@ -1,0 +1,95 @@
+.feature {
+    width: 100vw;
+    height: 100vh;
+}
+.feature__content{
+    margin-bottom: 150px;
+}
+.feature__vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%) ;
+}
+.feature__horizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%) ;
+    padding-left: 30px;
+}
+.feature__title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.feature__infos{    
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.feature__info{
+    display: inline-block;
+    margin-right: 15PX;
+}
+.feature__infos--points { 
+    color: #46d369;
+}
+.feature__description{
+    margin: 15px 0 30px 0;
+    font-size: 20px;
+    color: #999;
+    max-width: 40%;
+  
+}
+.featute__button{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:  15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 1;
+    transition: ease 0.2s;
+}
+.featute__button:hover{
+    opacity: 0.7;
+}
+.feature__button--watch{
+    background-color: #fff;
+    color: #000;
+}
+.feature__button--mylist{
+    background-color: #333;
+    color: white;
+}
+.feature__genres{
+    margin-top: 30px;
+    color: #999;
+    font-size: 18px;
+}
+@media (max-width: 760px) {
+    .feature{
+        width: 100vw;
+        height: 80vh;
+    }
+    .feature__description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;     
+    }
+    .feature__title{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .feature__info{
+        font-size: 16px;
+    }
+    .featute__button{
+        font-size: 16px;
+    }
+    .feature__genres{
+        font-size: 14px;
+    }
+}

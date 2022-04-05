@@ -1,0 +1,39 @@
+.episodes__container--show{
+    display: none;
+    padding: 0 40px 40px 40px;
+}
+.episodes__container--hide{
+    display: none;
+    padding: 0 40px 40px 40px;
+}
+.episode__box{
+  display: flex;
+  padding: 20px 20px;
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+.episode__banner{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+}
+.episode__box:hover{
+    transform: scale(1);
+    transition: 0.2s;
+  }
+.episode:hover{
+    background-color: #333333;    
+}
+.episode__content{
+    padding: 20px;
+}
+.episode__modal{
+    display: none;
+}
+.episode__content--title{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.episode__content--description{
+    font-size: 1rem;
+}

@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: #e50914;
+   }
+.dev {
+    width: 120px;
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.dev:hover {
+    transform: scale(1);
+}
